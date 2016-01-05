@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="target/docear-highlights-interface-lib-0.0.1.jar" toFile="../Desktop/docear_plugin_pdfutilities/lib/docear-realhighlights-interface.jar"/>
+  <copy file="target/docear-highlights-lib-0.0.1.jar" toFile="../../../.docear/addons/docear-realhighlights.jar"/>
+</target>
+</project>
